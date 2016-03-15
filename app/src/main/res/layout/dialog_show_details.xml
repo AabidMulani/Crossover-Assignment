@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <in.abmulani.crossoverassignment.widgets.CustomTextView
+        android:id="@+id/fullName"
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:textStyle="@integer/FONT_LIGHT" />
+
+
+    <in.abmulani.crossoverassignment.widgets.CustomTextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:textStyle="@integer/FONT_LIGHT" />
+
+    <in.abmulani.crossoverassignment.widgets.CustomTextView
+        android:id="@+id/emailTextView"
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:textStyle="@integer/FONT_LIGHT" />
+
+
+    <in.abmulani.crossoverassignment.widgets.CustomTextView
+        android:id="@+id/bloodGroupTextView"
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:textStyle="@integer/FONT_LIGHT" />
+
+
+    <in.abmulani.crossoverassignment.widgets.CustomTextView
+        android:id="@+id/isDonorTextView"
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:textStyle="@integer/FONT_MEDIUM" />
+
+    <in.abmulani.crossoverassignment.widgets.CustomButton
+        android:id="@+id/buttonOkay"
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:text="OKAY"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

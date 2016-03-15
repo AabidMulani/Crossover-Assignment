@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Crossover Assignment</string>
+    <string name="splash_msg">APP NAME\nand\nLOGO HERE</string>
+    <string name="app_name_title">Crossover</string>
+
+
+    <string name="menu.title.filter">Filter</string>
+    <string name="menu.title.addItem">Add Item</string>
+
+    <string-array name="userType">
+        <item>Donor</item>
+        <item>Patient</item>
+    </string-array>
+
+</resources>
